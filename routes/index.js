@@ -7,7 +7,7 @@ const pedidosController = require("../controllers/pedidosController")
 const router =  express.Router();
 
 
-module.exports = function() {
+module.exports = function() { 
 
     //login
     router.post('/login', loginController.login)
